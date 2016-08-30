@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>hellonews</display-name>
+  <welcome-file-list>
+    <welcome-file>start.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+      <servlet-name>initServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.web.InitServlet</servlet-class>
+      <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>initServlet</servlet-name>
+      <url-pattern>/init</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>indexServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.web.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>indexServlet</servlet-name>
+      <url-pattern>/goIndex</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>newsServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.web.NewsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>newsServlet</servlet-name>
+      <url-pattern>/news</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+      <servlet-name>commentServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.web.CommentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>commentServlet</servlet-name>
+      <url-pattern>/comment</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>adminPassportServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.back.AdminPassportServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>adminPassportServlet</servlet-name>
+      <url-pattern>/adminPassport</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>linkServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.back.LinkServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>linkServlet</servlet-name>
+      <url-pattern>/link</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>newsTypeServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.back.NewsTypeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>newsTypeServlet</servlet-name>
+      <url-pattern>/newsType</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+      <servlet-name>imageUploadServlet</servlet-name>
+      <servlet-class>zhouzhutou.news.back.ImageUploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>imageUploadServlet</servlet-name>
+      <url-pattern>/imageUpload</url-pattern>
+  </servlet-mapping>
+</web-app>

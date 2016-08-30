@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/foreground/news/newsList.jsp=UTF-8
+encoding//src/zhouzhutou/news/dao/LinkDao.java=UTF-8
+encoding//src/zhouzhutou/news/dao/NewsDao.java=UTF-8
+encoding//src/zhouzhutou/news/dao/NewsTypeDao.java=UTF-8
+encoding//src/zhouzhutou/news/model/NewsType.java=UTF-8
+encoding//src/zhouzhutou/news/util/StringUtil.java=UTF-8
+encoding//src/zhouzhutou/news/web/IndexServlet.java=UTF-8

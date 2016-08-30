@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+.{
+	text-align:center;	
+}
+.col_login{
+	
+}
+.row .login{
+	margin-left:68px;
+	margin-top:300px;
+	width:300px;
+	height:190px;
+}
+
+.login .errorMessage p{
+	padding-top:6px;
+}
+
+.color{
+	color:#05051d;
+}
+.center{
+	margin-top:10px;
+}
+
+.left-bar li a{
+	color:black;
+}
+.left-bar .manager{
+	font-weight:bold;
+	font-size: 16px;
+    font-family: -webkit-pictograph;
+}
+.content{
+	padding:0px;
+	border:1px solid #E5E5E5;
+	border-radius:6px;
+}
+.header_nav{
+	padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height:40px;
+    font-size: 14px;
+    color:black;
+    font-family: initial;
+    margin: 0px;
+    border-bottom: 1px solid #E5E5E5;
+    border-radius:6px;
+}
+.header_nav span{
+	margin-right: 4px;
+    margin-left: 4px;
+    font-size:14px;
+    font-family: initial;
+    color: slategrey;
+}
+.content_form{
+	padding-top:20px;
+}
+.content_form form{
+	height:100%;
+	width:100%;
+}
+.content_list{
+	padding-top:12px;
+	padding-left:12px;
+	padding-right:12px;
+}
+.content_list table tbody tr td a{
+	text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.form-horizontal{
+	width:100%;
+}
+.form-horizontal .control-label{
+	color: cadetblue;S
+    font-family: -webkit-pictograph;
+    font-weight: 500;
+}
+.content_form .form-horizontal .form-group p{
+	padding-top:2px;
+	color:red;
+}
+
+.link_table tr td{
+	color: currentColor;
+    font-weight: 500;
+}
+.messageDialog{
+	height: 64px;
+    width: 128px;
+    text-align: center;
+    padding-top: 16px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background-color: white;
+    position:absolute;
+    z-index:1;
+    opacity:0;
+    display:none;
+}
+
+.fade{
+	animation:fade 2s ease;
+	-webkit-animation: fade 1s ease;
+	-moz-animation:fade 1s ease;
+	-o-animation:fade 1s ease;
+}
+@keyframes fade{
+	0% {opacity:0}
+	50% {opacity:1}
+	100% {opacity:0}
+}
+@-webkit-keyframes fade{
+	0% {opacity:0}
+	50% {opacity:1}
+	100% {opacity:0}
+}
+@-moz-keyframes fade{
+	0% {opacity:0}
+	50% {opacity:1}
+	100% {opacity:0}
+}
+@-o-keyframes fade{
+	0% {opacity:0}
+	50% {opacity:1}
+	100% {opacity:0}
+}
